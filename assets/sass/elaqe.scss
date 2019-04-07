@@ -1,0 +1,262 @@
+#elaqe{
+    padding: 5% 0%;
+    padding-bottom: 0;
+    .whiteColor{
+        background-color: white;
+        padding: 5% 2%;
+    }
+    .container{
+        .row{
+            .col-md-12{
+                font-family: 'Montserrat', sans-serif;
+                color: $wordColorBlack;
+                .text{
+                    h1{
+                        font-size: 48px;
+                        font-weight: 800;
+                        margin-bottom: 2%;
+                    }
+                    p{
+                        font-size: 16px;
+                        color: $bozSoz;
+                        line-height: 31px;
+                        font-weight: 600;
+                    }
+                    margin-bottom: 5%;
+                }
+            }
+            .col-md-4{
+                label{
+                    color: $goyButtonRengi;
+                    font-size: 12.6px;
+                    font-weight: 600;
+                }
+                input[type=text], input[type=email], select, textarea {
+                    width: 100%;
+                    padding: 12px;
+                    border: 1px solid $goyButtonRengi;
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                    margin-top: 6px;
+                    margin-bottom: 16px;
+                    resize: vertical;
+                    outline: none;
+                    &:focus{
+                        box-shadow: none;
+                    }
+                  }
+                  
+                  input[type=submit] {
+                    cursor: pointer;
+                    background-color: $goyButtonRengi;
+                    width: 55%;
+                    height: 55px;
+                    color: white;
+                    outline: none;
+                    border: none;
+                  }
+            }
+            .col-md-6{
+                .numberAndEmail{
+                    margin-top: 10%;
+                    table{
+                        tbody{
+                            tr{
+                                td.icon{
+                                    .blue{
+                                        background-color: $goyButtonRengi;
+                                        width: 82px;
+                                        height: 70px;
+                                        line-height: 70px;
+                                        text-align: center;
+                                        font-size: 43px;
+                                        border-radius: 5px;
+                                        color: white;
+                                        outline: none;
+                                        border: none;
+                                    }
+                                }
+                                td{
+                                    &:last-child{
+                                        width: 100%;
+                                    }
+                                    i{
+                                        transform: rotate(-45deg);
+                                    }
+                                    .numbers{
+                                        margin-left: 7%;
+                                        width: 100%;
+                                        span{
+                                            font-weight: bold;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &:nth-child(2){
+                            margin-top: 5%;
+                            tbody{
+                                td{
+                                    i{
+                                        transform: rotate(0deg)
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .container{
+        .row{
+            .col-md-12{
+                .line{
+                    width: 100%;
+                    margin: 0 auto;
+                    margin-top: 8%;
+                    height: 2px;
+                    background-color: $bozXett;
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 320px) and (max-width: 767px){
+    #elaqe{
+        .container{
+            .row{
+                .col-md-12{
+                    .text{
+                        h1{
+                            font-size: 27px;
+                        }
+                        p{
+                            font-size: 12px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+                .col-md-4{
+                      input[type=submit] {
+                        width: 150px;
+                        height: 40px;
+                        line-height: 40px;
+                        font-size: 14px;
+                      }
+                }
+                .col-md-6{
+                    .numberAndEmail{
+                        table{
+                            width: 80%;
+                            tbody{
+                                tr{
+                                    td.icon{
+                                        width: 25%;
+                                        .blue{
+                                            width: 61px;
+                                            height: 45px;
+                                            line-height: 45px;
+                                            font-size: 24px;
+                                        }
+                                    }
+                                    td{
+                                        .numbers{
+                                            margin-left: 0;
+                                            span{
+                                                font-size: 12px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 768px) and (max-width: 1023px){
+    #elaqe{
+        .container{
+            .row{
+                .col-md-4{
+                      input[type=submit] {
+                        width: 70%;
+                        height: 50px;
+                        line-height: 50px;
+                        font-size: 14px;
+                      }
+                }
+                .col-md-6{
+                    .numberAndEmail{
+                        table{
+                            tbody{
+                                tr{
+                                    td.icon{
+                                        width: 0%;
+                                        .blue{
+                                            width: 65px;
+                                            height: 55px;
+                                            line-height: 55px;
+                                            font-size: 30px;
+                                        }
+                                    }
+                                    td{
+                                        .numbers{
+                                            span{
+                                                font-size: 14px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 1024px) and (max-width: 1100px){
+    #elaqe{
+        .container{
+            .row{
+                .col-md-4{
+                      input[type=submit] {
+                        width: 70%;
+                        height: 50px;
+                        line-height: 50px;
+                        font-size: 14px;
+                      }
+                }
+                .col-md-6{
+                    .numberAndEmail{
+                        table{
+                            tbody{
+                                tr{
+                                    td.icon{
+                                        .blue{
+                                            width: 65px;
+                                            height: 55px;
+                                            line-height: 55px;
+                                            font-size: 30px;
+                                        }
+                                    }
+                                    td{
+                                        .numbers{
+                                            span{
+                                                font-size: 14px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

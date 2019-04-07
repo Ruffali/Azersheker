@@ -1,0 +1,278 @@
+#footer{
+    margin-top: 5%;
+    .container{
+        .row{
+            .col-md-4{
+                .logo{
+                    display: inline-block;
+                    padding-top: .3125rem;
+                    padding-bottom: .3125rem;
+                    margin-right: 1rem;
+                    font-size: 1.25rem;
+                    line-height: inherit;
+                    white-space: nowrap;
+                    .navbar-brand{
+                        width: 120px;
+                    }
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+            .col-md-2{
+                .text{
+                    font-family: 'Montserrat', sans-serif;
+                    color: $wordColorBlack;
+                    width: 100%;
+                    text-align: left;
+                    h1{
+                        font-size: 18px;
+                        font-weight: bold;
+                        margin-bottom: 15%;
+                    }
+                    ul{
+                        padding: 0;
+                        li{
+                            list-style: none;;
+                            a{
+                                text-decoration: none;
+                                p{
+                                    font-size: 13px;
+                                    font-weight: 600;
+                                    color: $wordColorBlack;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .last{
+            margin-top: 5%;
+            .container-fluid{
+                .row{
+                    .col-md-10{
+                        .copyright{
+                            padding-left: 12%;
+                            p{
+                                font-family: 'Montserrat', sans-serif;
+                                color: $wordColorBlack;
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                    .col-md-2{
+                        .icons{
+                            ul{
+                                li{
+                                    list-style: none;
+                                    display: inline;
+                                    margin: 0 5px;
+                                    a{
+                                        text-decoration: none;
+                                        font-size: 19px;
+                                    }
+                                }
+                                li:first-child{
+                                    a{
+                                        i{
+                                            color: #3B5998
+                                        }
+                                    }
+                                }
+                                li:nth-child(2){
+                                    a{
+                                        i{
+                                            color: #55ACEE
+                                        }
+                                    }
+                                }
+                                li:nth-child(3){
+                                    a{
+                                        i{
+                                            color: #F70000
+                                        }
+                                    }
+                                }
+                                li:last-child{
+                                    a{
+                                        i{
+                                            color: #4F1885;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    } 
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 320px) and (max-width: 1023px){
+    #footer{
+        .container{
+            .row{
+                .col-md-2{
+                    .text{
+                        h1{
+                            margin-top: 8%;
+                            margin-bottom: 5%;
+                            font-size: 18px;
+                        }
+                        ul{
+                            li{
+                                a{
+                                    p{
+                                        padding-bottom: 0%;
+                                        font-size: 13px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .last{
+                .container-fluid{
+                    .row{
+                        .colCopyright{
+                            padding-left: 0;
+                            .copyright{
+                            text-align: center;
+                            padding-left: 0;
+                            }
+                        }
+                        .colIcons{
+                            padding-left: 0;
+                            .icons{
+                                text-align: center;
+                                ul{
+                                padding-left: 0;
+                                }
+                            }
+                        } 
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 320px) and (max-width: 767px){
+    #footer{
+        text-align: center;
+        .container{
+            .row{
+                .col-md-4{
+                    .logo{
+                        margin-right: 0;
+                        a{
+                            margin-right: 0;
+                        }
+                    }
+                }
+                .col-md-2{
+                    .text{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 320px) and (max-width: 1440px){
+    #footer{
+        .container{
+            .row{
+                .col-md-4{
+                    .logo{
+                        .navbar-brand{
+                            width: 90px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 768px) and (max-width: 1023px){
+    #footer{
+        .container{
+            .row{
+                .col-md-2{
+                    .text{
+                        h1{
+                            margin-top: 8%;
+                            margin-bottom: 5%;
+                            font-size: 11px;
+                        }
+                        ul{
+                            li{
+                                a{
+                                    p{
+                                        padding-bottom: 0%;
+                                        font-size: 10px;
+                                        display: inherit;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .last{
+                .container-fluid{
+                    .row{
+                        .colCopyright{
+                            .copyright{
+                            text-align: left;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 1024px) and (max-width: 1500px){
+    #footer{
+        .container{
+            .row{
+                .col-md-2{
+                    .text{
+                        h1{
+                            margin-top: 8%;
+                            margin-bottom: 5%;
+                            font-size: 16px;
+                        }
+                        ul{
+                            li{
+                                a{
+                                    p{
+                                        padding-bottom: 0%;
+                                        font-size: 11px;
+                                        display: inherit;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .last{
+                .container-fluid{
+                    .row{
+                        .colIcons{
+                            .icons{
+                                ul{
+                                padding-left: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

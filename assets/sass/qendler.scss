@@ -1,0 +1,401 @@
+#qendler{
+    .container{
+        .row{
+            .col-md-12{
+                ul{
+                    padding: 0;
+                    li{
+                        display: inline;
+                        .qendler{
+                            width: 19.6%;
+                            display: inline-block;
+                            background-color: transparent;
+                            transition: background-color ease-out .3s;
+                            cursor: pointer;
+                            .card{
+                                border: none;
+                                text-align: center;
+                                padding: 5%;
+                                background: transparent;
+                                display: flex;
+                                img{
+                                    max-width: 100%;
+                                    max-height: 200px;
+                                    width: 100%;
+                                    filter: drop-shadow(22px -12px 10px #e1e1e1);
+                                    transition: filter ease-out .3s;
+                                }
+                                .card-body{
+                                    font-family: 'Montserrat', sans-serif;
+                                    color: $wordColorBlack;
+                                    p.bold{
+                                        font-weight: bold;
+                                    }
+                                    p:nth-child(2){
+                                        font-weight: 500;
+                                    }
+                                }
+                            }
+                            &:hover{
+                                background-color: white;
+                                .card{
+                                    img{
+                                        filter:none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .container{
+        .row{
+            .col-md-12{
+                .line{
+                    width: 100%;
+                    margin: 0 auto;
+                    margin-top: 8%;
+                    height: 2px;
+                    background-color: $bozXett;
+                }
+            }
+        }
+    }
+}
+
+
+
+#zoomImg{
+	z-index: 100;
+    height: 100%;
+    width: 100%;
+	position: fixed;
+	background: #000000c2;
+    display: none;
+    .imgDiv{
+        height: auto;
+        width: 500px;
+        top: 45%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        background: white;
+        .imgclose{
+            top: 0%;
+            right: -32%;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            color: #ccc;
+            font-size: 30px;
+            cursor: pointer;
+        }
+        img{
+            width: 500px;
+            height: 500px;
+            object-fit: contain;
+        }
+        .content{
+            font-family: 'Montserrat', sans-serif;
+            color: black;
+            text-align: center;
+            p.bold{
+                font-weight: bold;
+            }
+            p:nth-child(2){
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+@media  screen and (min-width: 768px) and (max-width: 1000px){
+    #qendler{
+        .container{
+            .row{
+                .col-md-12{
+                    .qendler{
+                        width: 19.4%!important;
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 320px) and (max-width: 1200px){
+    #qendler{
+        .container{
+            .row{
+                padding-top: 0!important;
+                .col-md-12{
+                    .qendler{
+                        width: 100%!important;
+                        .card{
+                            padding: 0%!important;
+                            img{
+                                padding: 0px 10%;
+                                max-height: 160px!important;
+                            }
+                            .card-body{
+                                padding-left: 0;
+                                padding-right: 0;
+                                p.bold{
+                                    font-size: 12px;
+                                }
+                                p:nth-child(2){
+                                    font-size: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 320px) and (max-width: 560px){
+    #zoomImg{
+        .imgDiv{
+            width: 230px;
+            img{
+                height: 230px;
+                width: 230px;
+            }
+            .imgclose{
+                font-size: 20px;
+                right: -17%;
+                top: -8%;
+            }
+        }
+    }
+}
+@media  screen and (min-width: 560px) and (max-width: 1200px){
+    #zoomImg{
+        .imgDiv{
+            width: 300px;
+            height: 385px;
+            img{
+                width: 300px;
+                height: 300px;
+            }
+            .imgclose{
+                font-size: 20px;
+                right: -2%;
+                top: -6%;
+            }
+        }
+    }
+}
+@media  screen and (min-width: 500px) and (max-width: 767px){
+    #qendler{
+        .container{
+            .row{
+                .col-md-12{
+                    .qendler{
+                        .card{
+                            img{
+                                max-height: 180px!important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 768px) and (max-width: 1200px){
+    #qendler{
+        .container{
+            .row{
+                .col-md-12{
+                    .qendler{
+                        .card{
+                            img{
+                                width: 50%!important;
+                                margin: 0 auto!important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 992px) and (max-width: 1200px){
+    #qendler{
+        .container{
+            .row{
+                .col-md-12{
+                    .qendler{
+                        .card{
+                            img{
+                                max-height: 230px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 1201px) and (max-width: 1299px){
+    #qendler{
+        .container{
+            .row{
+                .col-md-12{
+                    .qendler{
+                        .card{
+                            img{
+                                max-height: 175px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 1300px) and (max-width: 1440px){
+    #qendler{
+        .container{
+            .row{
+                .col-md-12{
+                    .qendler{
+                        .card{
+                            img{
+                                max-height: 150px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 360px) and (max-width: 410px){
+    #qendler{
+        .container{
+            .row{
+                .col-md-12{
+                    .qendler{
+                        .card{
+                            img{
+                                padding: 0px 17%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 411px) and (max-width: 767px){
+    #qendler{
+        .container{
+            .row{
+                .col-md-12{
+                    .qendler{
+                        .card{
+                            img{
+                                padding: 0px 21%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 768px) and (max-width: 1299px){
+    #qendler{
+        .container{
+            .row{
+                .col-md-12{
+                    .qendler{
+                        .card{
+                            .card-body{
+                                padding-left: 0;
+                                padding-right: 0;
+                                p.bold{
+                                    font-size: 14px;
+                                }
+                                p:nth-child(2){
+                                    font-size: 11px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 1300px) and (max-width: 1700px){
+    #qendler{
+        .container{
+            .row{
+                .col-md-12{
+                    .qendler{
+                        .card{
+                            img{
+                                padding: 0px 5%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 1800px) and (max-width: 2000px){
+    #qendler{
+        .container{
+            .row{
+                .col-md-12{
+                    .qendler{
+                        .card{
+                            img{
+                                padding: 0px 5%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 2001px) and (max-width: 2500px){
+    #qendler{
+        .container{
+            .row{
+                .col-md-12{
+                    .qendler{
+                        .card{
+                            img{
+                                padding: 0px 10%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 2501px) and (max-width: 3100px){
+    #qendler{
+        .container{
+            .row{
+                .col-md-12{
+                    .qendler{
+                        .card{
+                            img{
+                                padding: 0px 15%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

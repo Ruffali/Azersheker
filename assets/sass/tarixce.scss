@@ -1,0 +1,400 @@
+#tarixce{
+    .container{
+        .row{
+            .col-md-12{
+                font-family: 'Montserrat', sans-serif;
+                color: $wordColorBlack;
+                .text{
+                    padding: 5% 0%;
+                    h1{
+                        font-size: 48px;
+                        font-weight: 800;
+                        margin-bottom: 2%;
+                    }
+                    p{
+                        font-size: 12px;
+                        font-weight: 600;
+                    }
+                }
+                .shekerHaqqinda{
+                    padding-bottom: 5%;
+                    ul.dropdownSuger{
+                        display: none;
+                    }
+                    ul{ 
+                        padding: 0%;
+                        text-align: left;
+                        li{
+                            display: inline;
+                            margin: 0 10px;
+                            .myButtonBorderBlue{
+                                width: 202px;
+                            }
+                        }
+                    }
+                }
+            }
+            .col-md-12{
+                font-family: 'Montserrat', sans-serif;
+                color: $wordColorBlack;
+                .textSheker, .info{
+                    h1{
+                        font-size: 48px;
+                        font-weight: bold;
+                        margin-bottom: 2%;
+                    }
+                    p{
+                        font-size: 16px;
+                        color: $bozSoz;
+                        line-height: 31px;
+                        font-weight: 600;
+                    }
+                }
+                .textSheker{
+                    h1{
+                        font-weight: 800;
+                    }
+                    padding-bottom: 4%;
+                    p:nth-of-type(2){
+                        margin-top: 4%;
+                    }
+                }
+                .textFayda{
+                    padding-bottom: 4%;
+                    h1{
+                        font-size: 48px;
+                        font-weight: 800;
+                        margin-bottom: 2%;
+                    }
+                    h1.secondTitle{
+                        font-size: 24px;
+                        font-weight: 800;
+                    }
+                    p{
+                        font-size: 16px;
+                        color: $bozSoz;
+                        line-height: 31px;
+                        font-weight: 600;
+                    }
+                    ul{
+                        padding: 0;
+                        list-style: none;
+                        li{
+                            p{
+                                &::before{
+                                    content: "\2022";
+                                    color: $goyButtonRengi;
+                                    font-weight: bold;
+                                    display: inline-block; 
+                                    width: 1em;
+                                    margin-left: -1em;
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .info{
+                    padding: 0% 20% 0% 10%;
+                    p{
+                    position: relative;
+                        &::after{
+                            content: " ";
+                            position: absolute;
+                            top: 10%;
+                            left: -40px;
+                            width: 0.5%;
+                            height: 102px;
+                            background: $goyButtonRengi;
+                        }
+                    }
+                }
+                .line{
+                    width: 100%;
+                    margin: 0 auto;
+                    margin-top: 8%;
+                    height: 2px;
+                    background-color: $bozXett;
+                }
+            }
+            .col-md-3{
+                .picture{
+                    display: flex;
+                    justify-content: center;
+                    img{
+                        width: 100%;
+                        max-width: 100%;
+                        max-height: 172px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 320px) and (max-width: 767px){
+    #tarixce{
+        .container{
+            .row{
+                .col-md-12{
+                    .text{
+                        h1{
+                            font-size: 27px;
+                        }
+                        p{
+                            font-size: 9px;
+                        }
+                    }
+                    .shekerHaqqinda{
+                        ul.dropdownSuger{
+                            padding: 0;
+                            display: block;
+                            position: relative;
+                            text-align: center;
+                            .dropdown{
+                                button.myButtonBorderBlue{
+                                    &:focus{
+                                        outline: none;
+                                    }
+                                }
+                                .dropdown-menu{
+                                    z-index: 10;
+                                    border: none;
+                                    left: -8%!important;
+                                    width: 200px;
+                                    text-align: center;
+                                    .dropdown-item{
+                                        font-weight: normal;
+                                        padding: 3% 8%!important;
+                                        font-size: 14px!important;
+                                        color: $goyButtonRengi!important;
+                                        position: relative;
+                                        background-color: white!important;
+                                        &:hover{
+                                            font-weight: 500;
+                                            &::before{
+                                                content: "";
+                                                position: absolute;
+                                                width: 3px;
+                                                height: 28px;
+                                                background-color: $goyButtonRengi;
+                                                left: 0%;
+                                                top: 16%;
+                                            }
+                                        }
+                                    }
+                                    &:hover{
+                                        position: relative;
+                                        background: white;
+                                        .dropdown-menu{
+                                            display: block;
+                                        }
+                                        &:focus{
+                                            .dropdown-menu{
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                           
+                        }
+                        ul.normalDesignSugar{ 
+                            display: none;
+                        }
+                    }
+                }
+                .col-md-12{
+                    .textSheker, .info{
+                        h1{
+                            font-size: 23px;
+                        }
+                        p{
+                            font-size: 9px;
+                            line-height: 20px;
+                        }
+                    }
+                    .textFayda{
+                        h1{
+                            font-size: 23px;
+                        }
+                        p{
+                            font-size: 9px;
+                            line-height: 20px;
+                            display: inline-block;
+                        }
+                        ul{
+                            padding-left: 5%;
+                        }
+                    }
+                    .info{
+                        p{
+                            &::after{
+                                top: 0%;
+                                left: -8%;
+                                width: 0.5%;
+                                height: 113px;
+                            }
+                        }
+                    }
+                }
+                .col-md-3{
+                    .picture{
+                        margin-top: 5%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 320px) and (max-width: 443px){
+    #tarixce{
+        .container{
+            .row{
+                .col-md-12{
+                    .info{
+                        p{
+                            &::after{
+                                height: 157px;
+                            }
+                        }
+                    }
+                }
+            }
+        } 
+    } 
+}
+@media  screen and (min-width: 375px) and (max-width: 443px){
+    #tarixce{
+        .container{
+            .row{
+                .col-md-12{
+                    .shekerHaqqinda{
+                        ul.dropdownSuger{
+                            .dropdown{
+                                .dropdown-menu{
+                                    left: -4%!important;
+                                }
+                            } 
+                        } 
+                    } 
+                    .info{
+                        p{
+                            &::after{
+                                height: 120px;
+                            }
+                        }
+                    }
+                }
+            }
+        } 
+    } 
+}
+@media  screen and (min-width: 411px) and (max-width: 767px){
+    #tarixce{
+        .container{
+            .row{
+                .col-md-12{
+                    .shekerHaqqinda{
+                        ul.dropdownSuger{
+                            .dropdown{
+                                .dropdown-menu{
+                                    left: -6%!important;
+                                }
+                            } 
+                        } 
+                    } 
+                }
+            }
+        } 
+    } 
+}
+@media  screen and (min-width: 535px) and (max-width: 767px){
+    #tarixce{
+        .container{
+            .row{
+                .col-md-12{
+                    .info{
+                        p{
+                            &::after{
+                                height: 77px;
+                            }
+                        }
+                    }
+                }
+            }
+        } 
+    } 
+}
+@media  screen and (min-width: 767px) and (max-width: 1023px){
+    #tarixce{
+        .container{
+            .row{
+                .col-md-12{
+                    .shekerHaqqinda{
+                        ul.normalDesignSugar{ 
+                            padding: 0%;
+                            text-align: center;
+                            li{
+                                display: inline;
+                                margin: 0 2px;
+                                a{
+                                    margin: 0.5% 0;
+                                    width: 220px;
+                                }
+                            }
+                        }
+                    }
+                    .info{
+                        p{
+                            &::after{
+                                top: 5%;
+                                height: 170px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 767px) and (max-width: 1023px){
+    #tarixce{
+        .container{
+            .row{
+                .col-md-12{
+                    .shekerHaqqinda{
+                        ul.normalDesignSugar{ 
+                            li{
+                                a{
+                                    margin: 0.5% 0;
+                                    width: 220px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 1023px) and (max-width: 1440px){
+    #tarixce{
+        .container{
+            .row{
+                .col-md-12{
+                    .shekerHaqqinda{
+                        ul.normalDesignSugar{ 
+                            text-align: center;
+                            li{
+                                a{
+                                    margin: 0.5% 0;
+                                    width: 225px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

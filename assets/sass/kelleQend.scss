@@ -1,0 +1,43 @@
+#kelleQend{
+    .container{
+        .row{
+            .col-md-12{
+                font-family: 'Montserrat', sans-serif;
+                color: $wordColorBlack;
+                .text{
+                    padding: 5% 0%;
+                    h1{
+                        font-size: 48px;
+                        font-weight: 800;
+                        margin-bottom: 2%;
+                    }
+                    p{
+                        font-size: 16px;
+                        color: $bozSoz;
+                        line-height: 31px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 320px) and (max-width: 767px){
+    #kelleQend{
+        .container{
+            .row{
+                .col-md-12{
+                    .text{
+                        h1{
+                            font-size: 27px;
+                        }
+                        p{
+                            font-size: 12px;
+                            line-height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

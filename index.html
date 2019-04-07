@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <title>AzerŞəkər</title>
+  <link rel="icon" href="assets/Images/Logo.jpg">
+  <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:600,700,800" rel="stylesheet">
+  <link rel="stylesheet" href="General-document/owlcarousel/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="General-document/owlcarousel/dist/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+  <link rel="stylesheet" href="General-document/animate/animate.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <!-- Navbar Start -->
+  <section id="navbar">
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar myNav navbar-expand-lg">
+            <a class="navbar-brand myNavbarBrad" href="index.html">
+              <img src="assets/Images/LogoMain.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon .myNavbarTogglerIcon">
+                <i class="fas fa-bars"></i>
+              </span>
+            </button>
+            <div class="collapse myCollapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="myNavLink" href="index.html">Ana səhifə <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="myNavLink " href="#" id="navbarDropdown" role="button" aria-haspopup="true"
+                    aria-expanded="false">Tarixçə</a>
+                  <div class="dropdown-menu myDropdownMenu large" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item myDropdownItem" href="tarixceShekerHaqqinda.html">Şəkər
+                      haqqında</a>
+                    <a class="dropdown-item myDropdownItem" href="tarixceShekerHaqqinda.html">Dünyada şəkər
+                      istehsalı</a>
+                    <a class="dropdown-item myDropdownItem" href="tarixceShekerinFaydalari.html">Şəkərin faydaları</a>
+                    <a class="dropdown-item myDropdownItem" href="tarixceASHIB.html">AŞİB-in
+                      yaranması</a>
+                    <a class="dropdown-item myDropdownItem" href="tarixceMarketinq.html">Marketinq
+                      konsepsiyası</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="myNavLink " href="#" id="navbarDropdown" role="button" aria-haspopup="true"
+                    aria-expanded="false">Kateqoriya</a>
+                  <div class="dropdown-menu myDropdownMenu medium" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item myDropdownItem" href="mehsullar.html">Kəllə qənd</a>
+                    <a class="dropdown-item myDropdownItem" href="#">Parça qənd</a>
+                    <a class="dropdown-item myDropdownItem" href="#">Press qənd</a>
+                    <a class="dropdown-item myDropdownItem" href="#">Şəkər pudrası</a>
+                    <a class="dropdown-item myDropdownItem" href="#">Şəkər tozu</a>
+                    <a class="dropdown-item myDropdownItem" href="#">Qəhvəyi şəkər tozu</a>
+                    <a class="dropdown-item myDropdownItem" href="#">Noğul, şirni, nabat</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="myNavLink " href="#" id="navbarDropdown" role="button" aria-haspopup="true"
+                    aria-expanded="false">Kampaniyalar</a>
+                  <div class="dropdown-menu myDropdownMenu middle" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item myDropdownItem" href="kampaniyalarIctimai.html">İctimai
+                      əlaqələr yönlü</a>
+                    <a class="dropdown-item myDropdownItem" href="kampaniyalarTV.html">TV reklam
+                      fəaliyyətləri</a>
+                    <a class="dropdown-item myDropdownItem" href="kampaniyalarEndirimMain.html">Endirim
+                      kampaniyaları</a>
+                    <a class="dropdown-item myDropdownItem" href="kampaniyalarYenilikler.html">Yeniliklər</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="myNavLink" href="elaqe.html">Əlaqə</a>
+                </li>
+                <li class="nav-item search">
+                  <div class="searchbar mySearchbar">
+                    <a href="#search">
+                      <i class="fas fa-search"></i>
+                    </a>
+                  </div>
+                </li>
+                <li class="nav-item selectpickerLi">
+                  <select class="selectpicker" data-width="fit">
+                    <option data-content='AZ'>AZ</option>
+                    <option data-content='EN'>EN</option>
+                    <option data-content='RU'>RU</option>
+                  </select>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Search Form -->
+  <div id="search">
+    <span class="close">X</span>
+    <form role="search" id="searchform" action="/search" method="get">
+      <input value="" name="q" type="search" placeholder="type to search" />
+    </form>
+  </div>
+  <!-- Navbar End -->
+
+  <!-- Courusel Start-->
+  <section id="carousel">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="textANDButton">
+            <h1>Keyfiyyətin adı</h1>
+            <p class="blueWord">When designing</p>
+            <p>When designing a website or an app, your focus <br>
+              should be the optimal navigation path of your users. </p>
+            <a href="#" class="myButtonAllBlue">
+              Kəşf et
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="carousel">
+            <img class="background" src="assets/Images/backgroundCarouselMain.png" alt="">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <img src="assets/Images/qendler/kelleQend 250.png" alt="">
+              </div>
+              <div class="item">
+                <img src="assets/Images/qendler/ShekerTozu.png" alt="">
+              </div>
+              <div class="item">
+                <img src="assets/Images/qendler/kelleQend 250.png" alt="">
+              </div>
+            </div>
+            <div class="owl-nav">
+              <div class="owl-prev customPrevBtn">
+                <i class="fas fa-angle-left"></i>
+              </div>
+              <div class="owl-next customNextBtn">
+                <i class="fas fa-angle-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Courusel End-->
+
+  <!-- Mehsullar Start -->
+  <section id="mehsullar">
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <div class="mehsullar">
+            <div class="text">
+              <h1>Məhsullar</h1>
+              <p>When designing a website or an app, your focus <br>
+                should be the optimal navigation path of your users. </p>
+            </div>
+            <div class="image">
+              <img src="assets/Images/CHAYDANJPG.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="container ">
+            <div class="row">
+              <div class="col-md-12 rightside">
+                <a href="tarixceASHIB.html">
+                  <div class="tarixce">
+                    <div class="text">
+                      <h1>Tarixçə</h1>
+                      <p>When designing a website or an app, your focus <br>
+                        should be the optimal navigation path of your users. </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-12 rightside">
+                <a href="tarixceShekerHaqqinda.html">
+                  <div class="shekerHaqqinda">
+                    <div class="text">
+                      <h1>Şəkər haqqında</h1>
+                      <p>When designing a website or an app, your focus <br>
+                        should be the optimal navigation path of your users. </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Mehsullar End -->
+
+  <!-- Kampaniyalar Start -->
+  <section id="kampaniyalar">
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="kampaniyalar">
+            <div class="text">
+              <h1>Kampaniyalar</h1>
+              <p>When designing a website or an app, your focus <br>
+                should be the optimal navigation path of your users. </p>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img class="card-img-top" src="assets/Images/kampaniyalar/stekan.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h1 class="card-title">Tədbir</h1>
+                    <p class="card-text">Təbiət qoynunda doğmalarımızla Azərşəkər Kəllə Qəndlə birgə içilən samovar çayının yerini heç nə verməz...</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img class="card-img-top" src="assets/Images/kampaniyalar/stekanXurma.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h1 class="card-title">Tədbir</h1>
+                    <p class="card-text">Hər mövsümdə, hər evdə, hər insanın sevimli ikilisi.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img class="card-img-top" src="assets/Images/kampaniyalar/ikiStekan.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h1 class="card-title">Tədbir</h1>
+                    <p class="card-text">Qənd istehsalı prosesində su xaricində heç bir qatqı maddəsi istifadə edilmir və 99,9% saf tərkibi ilə ən saf qida maddələrindən biridir. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="naxish">
+      <img src="assets/Images/kampaniyalar/naxish.jpg" alt="">
+    </div>
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="button">
+            <a href="kampaniyalarYenilikler.html" class="myButtonAllBlue">Hamısını gör</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="line"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Kampaniyalar End -->
+
+  <!-- Footer Start -->
+  <section id="footer">
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="logo">
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/Images/LogoMain.png" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="text">
+            <h1>Markanin tarixi</h1>
+            <ul>
+              <li>
+                <a href="tarixceShekerHaqqinda.html">
+                  <p>Tarixçə</p>
+                </a>
+              </li>
+              <li>
+                <a href="tarixceShekerHaqqinda.html">
+                  <p>Dünya şəkər istehsalı</p>
+                </a>
+              </li>
+              <li>
+                <a href="tarixceShekerinFaydalari.html">
+                  <p>Şəkərin faydaları</p>
+                </a>
+              </li>
+              <li>
+                <a href="tarixceASHIB.html">
+                  <p>AzərŞəkər-in yaranması</p>
+                </a>
+              </li>
+              <li>
+                <a href="tarixceMarketinq.html">
+                  <p>Marketinq kansepsiyası</p>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="text">
+            <h1>Kateqoriyalar</h1>
+            <ul>
+              <li>
+                <a href="#">
+                  <p>Kəllə qənd</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>Parça qənd</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>Press qənd</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>Şəkər pudrası</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>Şəkər tozu</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>Qəhvəyi şəkər tozu</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>Noğul, Şirni, Nabat</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="text">
+            <h1>Kampaniyalar</h1>
+            <ul>
+              <li>
+                <a href="kampaniyalarIctimai.html">
+                  <p>İctimai Əlaqələr yönülü</p>
+                </a>
+              </li>
+              <li>
+                <a href="kampaniyalarTV.html">
+                  <p>TV reklam fəaliyyətləri</p>
+                </a>
+              </li>
+              <li>
+                <a href="kampaniyalarEndirimMain.html">
+                  <p>Endirim Kampaniyaları</p>
+                </a>
+              </li>
+              <li>
+                <a href="kampaniyalarYenilikler.html">
+                  <p>Yeniliklər</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="text">
+            <h1>Sosial Şəbəkədə</h1>
+            <ul>
+              <li>
+                <a href="#">
+                  <p>Facebbok</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>İnstagram</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>Youtube</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="last">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-10 colCopyright">
+              <div class="copyright">
+                <p>
+                  Copyright 2018 Azərşəkər. All right reserved.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-2 colIcons">
+              <div class="icons">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fab fa-youtube"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- Footer End -->
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="General-document/WOW-master/dist/wow.js"></script>
+  <script src="General-document/owlcarousel/dist/owl.carousel.min.js"></script>
+  <script src="General-document/owlcarousel/dist/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

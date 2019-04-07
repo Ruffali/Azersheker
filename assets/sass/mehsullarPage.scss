@@ -1,0 +1,252 @@
+#mehsullarPage{
+    .container{
+        .row{
+            .col-md-12{
+                font-family: 'Montserrat', sans-serif;
+                color: $wordColorBlack;
+                .text{
+                    padding: 5% 0;
+                    h1{
+                        font-size: 48px;
+                        font-weight: 800;
+                        margin-bottom: 2%;
+                    }
+                    p{
+                        font-size: 12px;
+                        font-weight: 600;
+                    }
+                }
+                .qendler{
+                    ul.dropdownSuger{
+                        display: none;
+                    }
+                    ul.normalDesignSugar{ 
+                        padding: 0%;
+                        text-align: center;
+                        li{
+                            display: inline;
+                            margin: 0 2px;
+                        }
+                    }
+                  
+                }
+            }
+        }
+    }
+}
+.lb-outerContainer{
+    background-color: transparent;
+}
+.lb-container{
+    .lb-image{
+        width: 560px!important;
+        height: 560px!important;
+    }
+}
+.lb-details{
+    width: 100%!important;
+    text-align: center!important;
+    .lb-caption{
+        font-size: 20px;
+    }
+}
+@media  screen and (min-width: 320px) and (max-width: 767px){
+    #mehsullarPage{
+        .container{
+            .row{
+                .col-md-12{
+                    .text{
+                        h1{
+                            font-size: 27px;
+                        }
+                        p{
+                            font-size: 9px;
+                        }
+                    }
+                    .qendler{
+                        ul.dropdownSuger{
+                            padding: 0;
+                            display: block;
+                            position: relative;
+                            text-align: center;
+                            .dropdown{
+                                button.myButtonBorderBlue{
+                                    &:focus{
+                                        outline: none;
+                                    }
+                                }
+                                .dropdown-menu{
+                                    z-index: 10;
+                                    border: none;
+                                    left: -7%!important;
+                                    text-align: center;
+                                    width: 190px;
+                                    a.dropdown-item{
+                                        font-weight: normal;
+                                        padding: 3% 13%!important;
+                                        font-size: 14px!important;
+                                        color: $goyButtonRengi!important;
+                                        position: relative;
+                                        background-color: white!important;
+                                        &:hover{
+                                            font-weight: 500;
+                                            &::before{
+                                                content: "";
+                                                position: absolute;
+                                                width: 3px;
+                                                height: 28px;
+                                                background-color: $goyButtonRengi;
+                                                left: 0%;
+                                                top: 16%;
+                                            }
+                                        }
+                                    }
+                                    &:hover{
+                                        position: relative;
+                                        background: white;
+                                        .dropdown-menu{
+                                            display: block;
+                                        }
+                                        &:focus{
+                                            .dropdown-menu{
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                           
+                        }
+                        ul.normalDesignSugar{ 
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 360px) and (max-width: 408px){
+    #mehsullarPage{
+        .container{
+            .row{
+                .col-md-12{
+                    .qendler{
+                        ul.dropdownSuger{
+                            .dropdown{
+                                .dropdown-menu{
+                                    left: -6%!important;
+                                }
+                            }
+                           
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 409px) and (max-width: 767px){
+    #mehsullarPage{
+        .container{
+            .row{
+                .col-md-12{
+                    .qendler{
+                        ul.dropdownSuger{
+                            .dropdown{
+                                .dropdown-menu{
+                                    left: -10%!important;
+                                }
+                            }
+                           
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 409px) and (max-width: 767px){
+    #mehsullarPage{
+        .container{
+            .row{
+                .col-md-12{
+                    .qendler{
+                        ul.dropdownSuger{
+                            .dropdown{
+                                .dropdown-menu{
+                                    left: -5%!important;
+                                }
+                            }
+                           
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 500px) and (max-width: 767px){
+    #mehsullarPage{
+        .container{
+            .row{
+                .col-md-12{
+                    .qendler{
+                        ul.dropdownSuger{
+                            .dropdown{
+                                .dropdown-menu{
+                                    left: -4%!important;
+                                }
+                            }
+                           
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 768px) and (max-width: 1300px){
+    #mehsullarPage{
+        .container{
+            .row{
+                .col-md-12{
+                    .qendler{
+                        ul.normalDesignSugar{ 
+                            padding: 0%;
+                            text-align: center;
+                            li{
+                                display: inline;
+                                margin: 0 2px;
+                                a{
+                                    margin: 0.5% 0;
+                                    width: 166px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 1024px) and (max-width: 1441px){
+    #mehsullarPage{
+        .container{
+            .row{
+                .col-md-12{
+                    .qendler{
+                        ul.normalDesignSugar{ 
+                            li{
+                                a{
+                                    margin: 0.5% 0;
+                                    width: 180px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

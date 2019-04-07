@@ -1,0 +1,222 @@
+#mehsullar{
+    .container{
+        .row{
+            a{
+                text-decoration: none;
+            }
+            .mehsullar, .tarixce, .shekerHaqqinda{
+                height: 100%;
+                font-family: 'Montserrat', sans-serif;
+                color: $wordColorBlack;
+                background-color: white;
+                .text{
+                    padding: 12%;
+                    padding-bottom: 0;
+                    position: relative;
+                    h1{
+                        position: relative;
+                        font-size: 48px;
+                        font-weight: bold;
+                        margin-bottom: 2%;
+                        &::after{
+                            content: " ";
+                            position: absolute;
+                            top: -15px;
+                            left: 5px;
+                            height: 4px;
+                            width: 15%;
+                            background: $goyButtonRengi;
+                        }
+                    }
+                    p{
+                        font-size: 12px;
+                        font-weight: 500;
+                    }
+                }
+             .image{
+                 img{
+                    max-width: 100%;
+                    max-height: 500px;
+                    width: 100%;
+                 }
+             }
+            }
+            .mehsullar{
+                position: relative;
+                .text{
+                    z-index: 1;
+                    h1{
+                        font-weight: 800;
+                    }
+                }
+                .image{
+                    position: absolute;
+                    top: 0%;
+                    height: 100%;
+                    img{
+                        height: 110%;
+                    }
+                }
+            }
+            .tarixce, .shekerHaqqinda{
+                padding: 6.5% 0%;
+                .text{
+                    padding: 5% 10%;
+                    padding-bottom: 0;
+                    h1{
+                        font-size: 21px;
+                        &::after{
+                            left: 0px;
+                            width: 15%;
+                        }
+                    }
+                }
+            }
+            .shekerHaqqinda{
+                margin-top: 40px;
+            }
+        }
+    }
+}
+@media  screen and (min-width: 320px) and (max-width: 767px){
+    #mehsullar{
+        .container{
+            .row{
+                .mehsullar{
+                    .image{
+                        margin-top: -40%;
+                        position: relative;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 320px) and (max-width: 1023px){
+    #mehsullar{
+        .container{
+            .row{
+                .mehsullar, .tarixce, .shekerHaqqinda{
+                    .text{
+                        h1{
+                            &::after{
+                                width: 22%;;
+                                top: -9px;
+                                height: 3px;
+                            }
+                        }
+                        p{
+                            font-size: 9px;
+                        }
+                    }
+                }
+                .mehsullar{
+                    .text{
+                        h1{
+                            font-size: 27px;
+                        }
+                    }
+                }
+                .tarixce, .shekerHaqqinda{
+                    .text{
+                        h1{
+                            font-size: 18px;
+                            &::after{
+                                width: 23%;
+                            }
+                        }
+                    }
+                }
+                .shekerHaqqinda{
+                    margin-top: 0;
+                }
+                .rightside{
+                    padding: 0;
+                    margin-top: 5%;
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 375px) and (max-width: 1023px){
+    #mehsullar{
+        .container{
+            .row{
+                .mehsullar, .tarixce, .shekerHaqqinda{
+                    .text{
+                        h1{
+                            &::after{
+                                width: 16%;;
+                            }
+                        }
+                    }
+                }
+                .tarixce, .shekerHaqqinda{
+                    .text{
+                        h1{
+                            &::after{
+                                width: 17%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 414px) and (max-width: 767px){
+    #mehsullar{
+        .container{
+            .row{
+                .mehsullar, .tarixce, .shekerHaqqinda{
+                    .text{
+                        p{
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 767px) and (max-width: 1023px){
+    #mehsullar{
+        .container{
+            .row{
+                .tarixce, .shekerHaqqinda{
+                    padding: 5% 0%;
+                }
+                .shekerHaqqinda{
+                    margin-top: 7%;
+                }
+                .rightside{
+                    padding: 0;
+                    margin-top: 0%;
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 1024px) and (max-width: 1199px){
+    #mehsullar{
+        .container{
+            .row{
+                .tarixce, .shekerHaqqinda{
+                    padding: 6% 0%;
+                }
+            }
+        }
+    }
+}
+@media  screen and (min-width: 1200px) and (max-width: 1700px){
+    #mehsullar{
+        .container{
+            .row{
+                .tarixce, .shekerHaqqinda{
+                    padding: 6.5% 0%;
+                }
+            }
+        }
+    }
+}
